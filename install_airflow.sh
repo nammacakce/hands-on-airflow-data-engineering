@@ -4,7 +4,7 @@ URed='\033[4;31m'
 BPurple='\033[1;35m'      
 BCyan='\033[1;36m'        
 NC='\033[0m' # No Color
-export AIRFLOW_HOME="/workspaces/hands-on-introduction-data-engineering-4395021/airflow"
+export AIRFLOW_HOME="/workspaces/hands-on-airflow-data-engineering/airflow"
 echo "Airflow home is set to: $AIRFLOW_HOME"
 
 echo "${BPurple}Note From Instructor: ${NC} This script will install Airflow ${URed}WITH${NC} the example dags. If you want Airflow ${URed}WITHOUT${NC} the example dags please run this command after this script finishes, before starting airflow: sed -i -e '/load_examples =/ s/= .*/= False/' ${AIRFLOW_HOME}/airflow.cfg"
